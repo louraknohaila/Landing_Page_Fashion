@@ -1,0 +1,297 @@
+
+body{
+    overflow: hidden;
+    background-color: rgba(231, 205, 170, 0.596);
+}
+.container1{
+     display: flex;
+     justify-content: space-between;
+}
+.container2{
+    position : relative;
+    top:115px;
+    display: flex;
+    justify-content: space-between;
+}
+.lienss{
+     position : relative;
+     top: 28px;
+}
+.logo{
+    position : relative;
+    top: 28px;
+}
+.number{
+    position : relative;
+    top: 28px;
+}
+.Home , .Products , .About , .Contact{
+      margin-left: 25px;
+      font-family:'Times New Roman', Times, serif
+}
+
+.Home{
+    background-color: rgba(201, 162, 115, 0.774);
+    padding-top: 37px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+}
+
+.cont1{
+      position : relative;
+      left: 35px;
+      bottom: 55px;
+}
+.cont2{
+    position : relative;
+    bottom: 55px;
+    
+}
+.texte1{
+    position :relative;
+    right: -115px;
+    top: 15px;
+    color :rgb(56, 56, 56);
+}
+.texte2{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+}
+
+.just{
+    font-size: 65px;
+    font-weight: 800;
+    position :relative;
+    right: -65px;
+    color : rgba(7, 7, 7, 0.842);
+} 
+.for {
+    font-size: 65px;
+    font-weight: 800;
+    position :relative;
+    right: -85px;
+    bottom:25px;
+    color : rgba(7, 7, 7, 0.842);
+} 
+.you{
+    font-size: 65px;
+    font-weight: 800;
+    position :relative;
+    right: -94px;
+    bottom:55px;
+    color : rgb(204, 146, 38);
+}
+.ligne1 {
+    width: 40%;
+    height: 1.8px;  
+    background-color: black;
+    position : relative;
+    top: 10px;
+    left: -20px;
+ 
+  }
+
+  .ligne2 {
+    width: 40%;
+    height: 1.5px; 
+    background-color: black;
+    position : relative;
+   
+    left: -20px;
+  }
+ .te1{
+    position : relative;
+    left: 60px;
+ }
+ .te2{
+    position : relative;
+    left: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    position :relative;
+    left: 4px;
+   ;
+ }
+ .te3{
+    position : relative;
+    left: 48px;
+ }
+ .te5{
+    position : relative;
+    left: 180px;
+    font-size: 55px;
+    font-weight: 800;
+    position :relative;
+    left: -28px;
+    top: 10px;
+    color : rgb(204, 146, 38);
+ }
+ .te6{
+    position : relative;
+    left: 180px;
+    font-size: 55px;
+    font-weight: 800;
+    position :relative;
+    left: -28px;
+    bottom: 4px;
+    color : rgb(204, 146, 38);
+ }
+ .foter{
+    position : relative;
+    top: 55px;
+    right: 55px;
+ }
+ .foter1{
+    position : relative;
+    top: 30px;
+ }
+ .icons{
+     display: flex;
+     position : relative;
+     left: 98px;
+ }
+ 
+ .I , .F , .T ,.Y{
+    margin-left:15px;
+ }
+ .Ia{
+      border-radius: 50%;
+      padding: 5px;
+      background-color: rgb(204, 146, 38);
+ }
+ .Fa{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(204, 146, 38);
+ }
+ .Ta{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(204, 146, 38);
+ }
+ .Ya{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(204, 146, 38);
+ }
+ .cercle{
+    position : relative;
+    bottom: 280px;
+    left: 145px;
+     background-color: rgba(201, 162, 115, 0.774);
+     width: 180px;
+     height: 180px;
+     border-radius: 50%;
+ }
+ .foter1{
+    display: flex;
+ }
+ .first{
+      position : relative;
+      right: 20px;
+      bottom: 5px;
+ }
+  
+ @media only screen and (max-width: 768px) {
+ 
+    
+    body {
+        overflow: visible;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .lienss, .logo, .number {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .cont1, .cont2, .cont3 {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .texte1 {
+        right: 0;
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .texte2 {
+        font-size: 35px;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 15px;
+    }
+
+    .just, .for, .you {
+        font-size: 40px;
+        right: 0;
+        bottom: 15px;
+    }
+
+    .foter {
+        right: 0;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .cercle {
+        left: 0;
+        bottom: 0;
+    }
+    .cont2{
+        position : relative;
+        bottom: 1px;
+        left: 35px;
+}
+.for{
+    position : relative;
+    bottom: 35px;
+}
+.you{
+     position : relative;
+     bottom: 55px;
+}
+.ligne1{
+    position : relative;
+    left: 115px;
+}
+.ligne2{
+    position : relative;
+    left: 115px;
+} 
+.te5{
+    position : relative;
+    left: 27px;
+}
+.te6{
+    position : relative;
+    left: 27px;
+}
+.te1{
+    position : relative;
+    left: 75px;
+}
+.te2{
+    position : relative;
+    left: 45px;
+}
+.te3{
+    position : relative;
+    left: 67px;
+}
+.cercle{
+    display: none;
+}
+}
